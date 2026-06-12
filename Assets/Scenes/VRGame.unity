@@ -1703,7 +1703,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1da4e91648f004881fa2febc64a2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PotionSystem
+  spawner: {fileID: 0}
   cauldron: {fileID: 597977366}
+  bigMushroom: {fileID: 0}
+  refrezherator: {fileID: 0}
 --- !u!4 &308033436
 Transform:
   m_ObjectHideFlags: 0
@@ -3036,99 +3039,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: a6c7231d-c55d-4dd4-9e87-877bb5522ef5
---- !u!1001 &663325551
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.20300643
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.20300643
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.20300643
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.47
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.83
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7635826562936255635, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: b5cf90c73b321d34cba6caa7b04ec2e9, type: 2}
-    - target: {fileID: 919132149155446097, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_Name
-      value: "\u043A\u043E\u0441\u0442\u044B\u0440\u0438\u043D\u0430 \u0446\u0432\u0435\u0442\u043E\u0447\u043A\u0438"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3082337
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2917
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2917
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.10788
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.40835
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9502d836cd74f2b4b8fe6b91dd923d08, type: 3}
 --- !u!1 &679301084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3866,7 +3776,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1da4e91648f004881fa2febc64a2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PotionSystem
+  spawner: {fileID: 0}
   cauldron: {fileID: 0}
+  bigMushroom: {fileID: 0}
+  refrezherator: {fileID: 0}
 --- !u!1 &897892449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: a598f78dab2c8fe44852b33b8a8799fb, type: 3}
@@ -5333,6 +5246,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 883d3bf076915994dbbe4899822fef61, type: 3}
+--- !u!1 &1201426634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201426635}
+  - component: {fileID: 1201426636}
+  m_Layer: 0
+  m_Name: spuwner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1201426635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201426634}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.386, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1598086806}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1201426636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201426634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad1017f6bfe5ca44fa1238138ef6cff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionSpawner
+  SpawnPoint: {fileID: 1201426635}
 --- !u!1 &1233098571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: fef6f2fcc366d5e4f9c5feb1568403d8, type: 3}
@@ -6311,7 +6269,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1151388028547126963, guid: 883d3bf076915994dbbe4899822fef61, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201426635}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8164078558771037576, guid: 883d3bf076915994dbbe4899822fef61, type: 3}
       insertIndex: -1
@@ -6320,6 +6281,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 597977366}
   m_SourcePrefab: {fileID: 100100000, guid: 883d3bf076915994dbbe4899822fef61, type: 3}
+--- !u!4 &1598086806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1151388028547126963, guid: 883d3bf076915994dbbe4899822fef61, type: 3}
+  m_PrefabInstance: {fileID: 1598086805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1647211248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,7 +7742,6 @@ SceneRoots:
   - {fileID: 1598086805}
   - {fileID: 1184347764}
   - {fileID: 733340761}
-  - {fileID: 663325551}
   - {fileID: 247887605}
   - {fileID: 925450313}
   - {fileID: 718291425}

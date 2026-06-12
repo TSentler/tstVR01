@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class PotionSystem : MonoBehaviour
 {
+    public PotionSpawner spawner;
     public Cauldron cauldron;
 
-public GameObject mushroom
+    public GameObject bigMushroom;
+    public GameObject refrezherator; //(это рефрактометр для определения световых лучей в прозрачных жидкостях и некоторых твердых веществах.это даже звучит странно)
 
 
     public void BrewPotion()
@@ -17,23 +19,36 @@ public GameObject mushroom
             ingredients.Count == 2)
         {
             Debug.Log("Vision potion worked!");
+            spawner.Spawn(bigMushroom);
         }
         else if (ingredients.Contains(IngredientType.Watermelon) &&
                   ingredients.Contains(IngredientType.Water) &&
                   ingredients.Count == 2)
         {
             Debug.Log("Vision potion worked!");
+            spawner.Spawn(refrezherator);
         }
-        cauldron.ClearCauldron();
-        else if (ingredients.Contains(IngredientType.Watermelon) &&
+        else if (
+                  ingredients.Contains(IngredientType.Watermelon) &&
                   ingredients.Contains(IngredientType.Eye) &&
-                  ingredients.Count == 2) 
-            cauldron.ClearCauldron();
+                  ingredients.Count == 2)
+        {
+            Debug.Log("Zele bessmertiz sozdano");
+        }
         else if (ingredients.Contains(IngredientType.Water) &&
                   ingredients.Contains(IngredientType.Bone) &&
-                  ingredients.Count == 2
-            cauldron.ClearCauldron();
+                  ingredients.Count == 2)
+        {
+            Debug.Log("Zele poleta sozdano");
+        }
         else if (ingredients.Contains(IngredientType.Watermelon) &&
                   ingredients.Contains(IngredientType.Bone) &&
                   ingredients.Count == 2)
+        {
+            Debug.Log("Zele predvidenia sozdano");
+        }
+        
+
+        cauldron.ClearCauldron();
+    }
 }
